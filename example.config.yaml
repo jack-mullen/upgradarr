@@ -1,0 +1,10 @@
+log_level: debug
+radarr:
+  api_key: API_KEY
+  base_url: https://192.168.1.100:7878
+  profiles:
+    "4K":
+      active_until_days: 90
+    "HD":
+      active_until_days: 365
+    "720p":
